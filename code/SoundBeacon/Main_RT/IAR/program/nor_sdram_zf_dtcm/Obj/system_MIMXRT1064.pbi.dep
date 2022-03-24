@@ -1,0 +1,16 @@
+system_MIMXRT1064.pbi: \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\deceive\system_MIMXRT1064.c \
+  D:\IAR\arm\inc\c\stdint.h D:\IAR\arm\inc\c\ycheck.h \
+  D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\IAR\arm\inc\c\DLib_Product.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\deceive/fsl_device_registers.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\deceive/MIMXRT1064.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_version.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_compiler.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_iccarm.h \
+  D:\IAR\arm\inc\c\iccarm_builtin.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/mpu_armv7.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\deceive/system_MIMXRT1064.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\deceive/MIMXRT1064_features.h

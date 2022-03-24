@@ -1,0 +1,10 @@
+zf_vector.pbi: \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\seekfree_libraries\zf_vector.c \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\seekfree_libraries/zf_vector.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Main_RT\IAR\program\..\..\..\Libraries\seekfree_libraries\common\common.h \
+  D:\IAR\arm\inc\c\math.h D:\IAR\arm\inc\c\ycheck.h \
+  D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\IAR\arm\inc\c\DLib_Product.h D:\IAR\arm\inc\c\DLib_float_setup.h \
+  D:\IAR\arm\inc\c\string.h D:\IAR\arm\inc\c\ysizet.h \
+  D:\IAR\arm\inc\c\DLib_Product_string.h

@@ -1,0 +1,5 @@
+ffsystem.pbi: \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\middleware\fatfs\source\ffsystem.c \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\middleware\fatfs\source/ff.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\middleware\fatfs\source/integer.h \
+  C:\Users\ASUS\Desktop\SoundBeacon_mybihuan\Libraries\nxp_libraries\middleware\fatfs\source/ffconf.h
