@@ -1,0 +1,23 @@
+fsl_trng.pbi: \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\drives\fsl_trng.c \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\drives/fsl_trng.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\drives/fsl_common.h \
+  D:\IAR\arm\inc\c\assert.h D:\IAR\arm\inc\c\ycheck.h \
+  D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\IAR\arm\inc\c\DLib_Product.h D:\IAR\arm\inc\c\stdbool.h \
+  D:\IAR\arm\inc\c\stdint.h D:\IAR\arm\inc\c\string.h \
+  D:\IAR\arm\inc\c\ysizet.h D:\IAR\arm\inc\c\DLib_Product_string.h \
+  D:\IAR\arm\inc\c\stdlib.h D:\IAR\arm\inc\c\DLib_Product_stdlib.h \
+  D:\IAR\arm\inc\c\stddef.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\deceive/MIMXRT1064.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_version.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_compiler.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_iccarm.h \
+  D:\IAR\arm\inc\c\iccarm_builtin.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/mpu_armv7.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\deceive/system_MIMXRT1064.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\deceive/MIMXRT1064_features.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\drives/fsl_clock.h

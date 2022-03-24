@@ -1,0 +1,7 @@
+ff.pbi: \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source\ff.c \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/ff.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/integer.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/ffconf.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/diskio.h \
+  D:\IAR\arm\inc\c\stdarg.h

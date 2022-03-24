@@ -1,0 +1,14 @@
+arm_dct4_q31.pbi: \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\CMSIS\DSP_Lib\Source\TransformFunctions\arm_dct4_q31.c \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\arm_math.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/core_cm7.h \
+  D:\IAR\arm\inc\c\stdint.h D:\IAR\arm\inc\c\ycheck.h \
+  D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\IAR\arm\inc\c\DLib_Product.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_version.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include/cmsis_compiler.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_iccarm.h \
+  D:\IAR\arm\inc\c\iccarm_builtin.h D:\IAR\arm\inc\c\string.h \
+  D:\IAR\arm\inc\c\ysizet.h D:\IAR\arm\inc\c\DLib_Product_string.h \
+  D:\IAR\arm\inc\c\math.h D:\IAR\arm\inc\c\DLib_float_setup.h

@@ -1,0 +1,1387 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  23/Jun/2020  16:31:12
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Exe\RT106X.out
+#    Map file     =
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\List\RT106X.map
+#    Command line =
+#        -f C:\Users\ASUS\AppData\Local\Temp\EW985D.tmp
+#        (C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_bitreversal.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_bitreversal2.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_init_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_init_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_init_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix2_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_init_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_init_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_init_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix4_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_cfft_radix8_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_init_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_init_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_init_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_dct4_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_fast_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_fast_init_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_init_f32.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_init_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_init_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_q15.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\arm_rfft_q31.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\BMX055.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\board.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Camera.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\clock_config.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\common.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\DirControl.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\diskio.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Encoder.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\evkmimxrt1064_flexspi_nor_config.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\evkmimxrt1064_sdram_ini_dcd.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\ff.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\ffsystem.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\FFT.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\ffunicode.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Filter.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_adc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_adc_etc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_aipstz.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_aoi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_assert.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_bee.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_cache.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_clock.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_cmp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_common.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_csi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_dcdc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_dcp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_debug_console.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_dmamux.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_elcdif.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_enc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_enet.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_ewm.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexcan.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_camera.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_i2c_master.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_i2s.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_i2s_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_spi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_spi_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_uart.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexio_uart_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexram.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexspi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_flexspi_nor_boot.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_gpc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_gpio.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_gpt.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_kpp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpi2c.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpi2c_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpspi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpspi_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpuart.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_lpuart_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_mmc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_notifier.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_ocotp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_pit.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_pmu.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_pwm.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_pxp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_qtmr.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_rtwdog.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sai.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sai_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sbrk.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sd.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sd_disk.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sdio.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sdmmc_common.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sdmmc_event.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_sdmmc_host.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_semc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_shell.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_snvs_hp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_snvs_lp.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_spdif.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_spdif_edma.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_src.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_str.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_tempmon.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_trng.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_tsc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_usdhc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_wdog.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_xbara.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\fsl_xbarb.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\FuzzySet_Speed.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\generic_list.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Image.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\InfraredDetector.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Init.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\InterruptService.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\isr.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\lpuart_adapter.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\main.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Motor.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Pid.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\pin_mux.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\Posture.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\RDA5807.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_18TFT.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_FONT.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_FUN.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_ICM20602.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_IIC.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_IPS114_SPI.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_IPS200_PARALLEL8.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_L3G4200D.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_MMA8451.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_MPU6050.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_MT9V03X.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_MT9V03X_CSI.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_NRF24L01.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_OLED.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_PRINTF.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_RDA5807.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_SCC8660.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_SCC8660_CSI.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_VIRSCO.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_W25QXXJV.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\SEEKFREE_WIRELESS.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\serial_manager.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\serial_port_uart.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\startup_MIMXRT1064.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\system_MIMXRT1064.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\TFmini.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_cdc_acm.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_ch9.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_class.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_dci.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_descriptor.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_device_ehci.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_osa_bm.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\usb_phy.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_adc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_camera.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_csi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_flash.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_gpio.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_iic.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_iomuxc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_pit.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_pwm.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_qtimer.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_rom_api.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_sdcard.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_spi.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_systick.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_uart.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_usb_cdc.o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj\zf_vector.o
+#        --no_out_extension -o
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Exe\RT106X.out
+#        --map
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\List\RT106X.map
+#        --config
+#        C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\..\..\IAR\icf\MIMXRT1064xxxxx_flexspi_nor.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x7000'2000 { ro section .intvec };
+"A2":  place at address 0x7000'0000 { section .boot_hdr.conf };
+"A3":  place at address 0x7000'1000 { section .boot_hdr.ivt };
+"A4":  place at address 0x7000'1020 { ro section .boot_hdr.boot_data };
+"A5":  place at address 0x7000'1030 { ro section .boot_hdr.dcd_data };
+"P1":  place in [from 0x7000'2000 to 0x7000'23ff] |
+                [from 0x7000'2400 to 0x703f'ffff] { ro };
+define block RW { first rw, section m_usb_dma_init_data };
+"P2":  place in [from 0x8000'0000 to 0x8000'03ff] |
+                [from 0x8000'0400 to 0x81df'ffff] { block RW };
+define block SDRAM_VAR
+   with alignment = 8 { section SDRAM_CACHE, section SDRAM_CACHE.init };
+"P11": place in [from 0x8000'0000 to 0x8000'03ff] |
+                [from 0x8000'0400 to 0x81df'ffff] { block SDRAM_VAR };
+define block ZI
+   with alignment = 32 { first zi, section m_usb_dma_noninit_data };
+"P3":  place in [from 0x2000'0000 to 0x2006'efff] { block ZI };
+"P4":  place in [from 0x2000'0000 to 0x2006'efff] { section .data };
+"P5":  place in [from 0x2000'0000 to 0x2006'efff] { section .textrw };
+define block DTCM_VAR
+   with alignment = 8 { section NonCacheable, section NonCacheable.init };
+"P9":  place in [from 0x2000'0000 to 0x2006'efff] { block DTCM_VAR };
+define block CSTACK with size = 4K, alignment = 8 { };
+"P7":  place in [from 0x2006'f000 to 0x2006'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+initialize by copy { ro }
+   except {
+      ro section .intvec, ro object system_MIMXRT1064.o,
+      ro object startup_MIMXRT1064.o, section .boot_hdr.conf,
+      section .boot_hdr.ivt, section .boot_hdr.boot_data,
+      section .boot_hdr.dcd_data };
+keep {
+   section .boot_hdr.conf, section .boot_hdr.ivt, section .boot_hdr.boot_data,
+   section .boot_hdr.dcd_data };
+
+No sections matched the following patterns:
+
+  section .intvec_RAM              in "A1"
+  section .textrw                  in "P3-P5|P9"
+  section ITCM_NonCacheable        in block ITCM_VAR
+  section ITCM_NonCacheable.init   in block ITCM_VAR
+  section NonCacheable.init        in block DTCM_VAR
+  section OCRAM_CACHE              in block OCRAM_VAR
+  section OCRAM_CACHE.init         in block OCRAM_VAR
+  section SDRAM_CACHE              in block SDRAM_VAR
+  section SDRAM_CACHE.init         in block SDRAM_VAR
+  section SDRAM_NonCacheable       in block SDRAM_NCACHE_VAR
+  section SDRAM_NonCacheable.init  in block SDRAM_NCACHE_VAR
+  section m_usb_dma_init_data      in block RW
+  section m_usb_dma_noninit_data   in block ZI
+
+
+  Section              Kind         Address      Size  Object
+  -------              ----         -------      ----  ------
+"P3-P5|P9", part 1 of 2:                         0x7e
+  P3-P5|P9 s0                   0x2000'0000      0x7e  <Init block>
+    .data              inited   0x2000'0000      0x28  zf_gpio.o [1]
+    .data              inited   0x2000'0028      0x24  zf_uart.o [1]
+    .data              inited   0x2000'004c      0x14  zf_qtimer.o [1]
+    .data              inited   0x2000'0060       0xc  SEEKFREE_RDA5807.o [1]
+    .data              inited   0x2000'006c       0xc  zf_adc.o [1]
+    .data              inited   0x2000'0078       0x4  system_MIMXRT1064.o [1]
+    .data              inited   0x2000'007c       0x2  SEEKFREE_IIC.o [1]
+                              - 0x2000'007e      0x7e
+
+"P3-P5|P9", part 2 of 2:                     0x1'008c
+  DTCM_VAR                      0x2000'0080    0x9600  <Block>
+    NonCacheable       zero     0x2000'0080    0x9600  SEEKFREE_SCC8660.o [1]
+  ZI                            0x2000'9680    0x6a8c  <Block>
+    .bss               zero     0x2000'9680       0x1  common.o [1]
+    .bss               zero     0x2000'9684       0x4  fsl_clock.o [1]
+    .bss               zero     0x2000'9688       0x4  fsl_clock.o [1]
+    .bss               zero     0x2000'968c       0x4  fsl_csi.o [1]
+    .bss               zero     0x2000'9690       0x4  fsl_csi.o [1]
+    .bss               zero     0x2000'9694      0x1c  fsl_debug_console.o [1]
+    .bss               zero     0x2000'96b0       0x4  fsl_debug_console.o [1]
+    .bss               zero     0x2000'96b4      0x80  fsl_edma.o [1]
+    .bss               zero     0x2000'9734       0x8  fsl_enet.o [1]
+    .bss               zero     0x2000'973c       0x4  fsl_enet.o [1]
+    .bss               zero     0x2000'9740       0x4  fsl_enet.o [1]
+    .bss               zero     0x2000'9744       0x4  fsl_enet.o [1]
+    .bss               zero     0x2000'9748       0x4  fsl_enet.o [1]
+    .bss               zero     0x2000'974c      0x10  fsl_flexcan.o [1]
+    .bss               zero     0x2000'975c       0x4  fsl_flexcan.o [1]
+    .bss               zero     0x2000'9760       0x8  fsl_flexio.o [1]
+    .bss               zero     0x2000'9768       0x8  fsl_flexio.o [1]
+    .bss               zero     0x2000'9770       0x8  fsl_flexio.o [1]
+    .bss               zero     0x2000'9778       0x4  fsl_lpi2c.o [1]
+    .bss               zero     0x2000'977c      0x14  fsl_lpi2c.o [1]
+    .bss               zero     0x2000'9790       0x4  fsl_lpi2c.o [1]
+    .bss               zero     0x2000'9794      0x14  fsl_lpi2c.o [1]
+    .bss               zero     0x2000'97a8      0x14  fsl_lpspi.o [1]
+    .bss               zero     0x2000'97bc       0x4  fsl_lpspi.o [1]
+    .bss               zero     0x2000'97c0       0x4  fsl_lpspi.o [1]
+    .bss               zero     0x2000'97c4      0x24  fsl_lpuart.o [1]
+    .bss               zero     0x2000'97e8       0x4  fsl_lpuart.o [1]
+    .bss               zero     0x2000'97ec      0x20  fsl_sai.o [1]
+    .bss               zero     0x2000'980c       0x4  fsl_sai.o [1]
+    .bss               zero     0x2000'9810       0x4  fsl_sai.o [1]
+    .bss               zero     0x2000'9814       0x4  fsl_sdmmc_event.o [1]
+    .bss               zero     0x2000'9818       0x4  fsl_sdmmc_event.o [1]
+    .bss               zero     0x2000'981c       0x4  fsl_sdmmc_event.o [1]
+    .bss               zero     0x2000'9820      0x28  fsl_sdmmc_host.o [1]
+    .bss               zero     0x2000'9848       0x1  fsl_sdmmc_host.o [1]
+    .bss               zero     0x2000'984c       0x8  fsl_spdif.o [1]
+    .bss               zero     0x2000'9854       0x4  fsl_spdif.o [1]
+    .bss               zero     0x2000'9858       0x4  fsl_spdif.o [1]
+    .bss               zero     0x2000'985c       0xc  fsl_usdhc.o [1]
+    .bss               zero     0x2000'9868       0x4  fsl_usdhc.o [1]
+    .bss               zero     0x2000'986c      0x18  isr.o [1]
+    .bss               zero     0x2000'9884     0xfa0  isr.o [1]
+    .bss               zero     0x2000'a824      0x2c  Motor.o [1]
+    .bss               zero     0x2000'a850      0x10  Posture.o [1]
+    .bss               zero     0x2000'a860      0x2c  Posture.o [1]
+    .bss               zero     0x2000'a88c      0x24  Posture.o [1]
+    .bss               zero     0x2000'a8b0    0x5820  SEEKFREE_MT9V03X.o [1]
+    .bss               zero     0x2001'00d0       0xc  SEEKFREE_RDA5807.o [1]
+    .bss               zero     0x2001'00dc      0x1c  zf_camera.o [1]
+    .bss               zero     0x2001'00f8       0x1  zf_systick.o [1]
+    .bss               zero     0x2001'00fc      0x10  zf_usb_cdc.o [1]
+                              - 0x2001'010c  0x1'008c
+
+"P7":                                          0x1000
+  CSTACK                        0x2006'f000    0x1000  <Block>
+    CSTACK             uninit   0x2006'f000    0x1000  <Block tail>
+                              - 0x2007'0000    0x1000
+
+"A2":                                           0x200
+  .boot_hdr.conf       const    0x7000'0000     0x200  evkmimxrt1064_flexspi_nor_config.o [1]
+                              - 0x7000'0200     0x200
+
+"A3":                                            0x20
+  .boot_hdr.ivt        const    0x7000'1000      0x20  fsl_flexspi_nor_boot.o [1]
+                              - 0x7000'1020      0x20
+
+"A4":                                            0x10
+  .boot_hdr.boot_data  const    0x7000'1020      0x10  fsl_flexspi_nor_boot.o [1]
+                              - 0x7000'1030      0x10
+
+"A5":                                           0x430
+  .boot_hdr.dcd_data   const    0x7000'1030     0x430  evkmimxrt1064_sdram_ini_dcd.o [1]
+                              - 0x7000'1460     0x430
+
+"A0":                                           0x440
+  .intvec              const    0x7000'2000     0x400  zf_vector.o [1]
+  .intvec              ro code  0x7000'2400      0x40  vector_table_M.o [4]
+                              - 0x7000'2440     0x440
+
+"P1":                                          0x7c92
+  .text                ro code  0x7000'2440     0x1ec  lz77_init.o [4]
+  .text                ro code  0x7000'262c       0x6  abort.o [2]
+  .text                ro code  0x7000'2632      0x3a  zero_init3.o [4]
+  .text                ro code  0x7000'266c      0x14  exit.o [5]
+  .text                ro code  0x7000'2680     0x17e  system_MIMXRT1064.o [1]
+  .text                ro code  0x7000'2800      0x6c  startup_MIMXRT1064.o [1]
+  .text                ro code  0x7000'286c      0x28  data_init.o [4]
+  .text                ro code  0x7000'2894      0x22  fpinit_M.o [3]
+  .iar.init_table      const    0x7000'28b8      0x50  - Linker created -
+  Veneer               ro code  0x7000'2908       0x8  - Linker created -
+  Veneer               ro code  0x7000'2910       0x8  - Linker created -
+  .text                ro code  0x7000'2918      0x1e  cmain.o [4]
+  .text                ro code  0x7000'2936       0x4  low_level_init.o [2]
+  .text                ro code  0x7000'293a       0xc  cstartup_M.o [4]
+  .rodata              const    0x7000'2946       0x0  zero_init3.o [4]
+  .rodata              const    0x7000'2946       0x0  lz77_init.o [4]
+  Initializer bytes    const    0x7000'2946    0x7722  <for RW-1>
+  Initializer bytes    const    0x7000'a068      0x6a  <for P3-P5|P9 s0>
+                              - 0x7000'a0d2    0x7c92
+
+"P2|P11":                                      0xdbaa
+  RW                            0x8000'0400    0xdbaa  <Block>
+    RW-1                        0x8000'0400    0xdbaa  <Init block>
+      .rodata          inited   0x8000'0400     0x420  pow64.o [3]
+      .rodata          inited   0x8000'0820      0x18  clock_config.o [1]
+      .rodata          inited   0x8000'0838      0x4c  clock_config.o [1]
+      .rodata          inited   0x8000'0884       0xc  clock_config.o [1]
+      .rodata          inited   0x8000'0890       0x8  clock_config.o [1]
+      .rodata          inited   0x8000'0898      0x14  fsl_adc.o [1]
+      .rodata          inited   0x8000'08ac      0x48  fsl_adc.o [1]
+      .rodata          inited   0x8000'08f4       0xc  fsl_adc.o [1]
+      .rodata          inited   0x8000'0900      0x2c  fsl_assert.o [1]
+      .rodata          inited   0x8000'092c      0x10  fsl_clock.o [1]
+      .rodata          inited   0x8000'093c      0x4c  fsl_clock.o [1]
+      .rodata          inited   0x8000'0988      0x10  fsl_clock.o [1]
+      .rodata          inited   0x8000'0998       0x8  fsl_debug_console.o [1]
+      .rodata          inited   0x8000'09a0      0x64  fsl_debug_console.o [1]
+      .rodata          inited   0x8000'0a04       0xc  fsl_debug_console.o [1]
+      .rodata          inited   0x8000'0a10      0x28  fsl_debug_console.o [1]
+      .rodata          inited   0x8000'0a38      0x10  fsl_debug_console.o [1]
+      .rodata          inited   0x8000'0a48      0x4c  fsl_edma.o [1]
+      .rodata          inited   0x8000'0a94      0x10  fsl_edma.o [1]
+      .rodata          inited   0x8000'0aa4       0xc  fsl_edma.o [1]
+      .rodata          inited   0x8000'0ab0      0x3c  fsl_enet.o [1]
+      .rodata          inited   0x8000'0aec      0x4c  fsl_enet.o [1]
+      .rodata          inited   0x8000'0b38       0xc  fsl_enet.o [1]
+      .rodata          inited   0x8000'0b44      0x4c  fsl_flexcan.o [1]
+      .rodata          inited   0x8000'0b90      0x14  fsl_flexcan.o [1]
+      .rodata          inited   0x8000'0ba4      0x14  fsl_flexcan.o [1]
+      .rodata          inited   0x8000'0bb8      0x14  fsl_flexcan.o [1]
+      .rodata          inited   0x8000'0bcc       0xc  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0bd8      0x4c  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0c24      0x3c  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0c60      0x4c  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0cac       0xc  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0cb8      0x28  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0ce0       0xc  fsl_gpio.o [1]
+      .rodata          inited   0x8000'0cec       0xc  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0cf8      0x4c  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0d44      0x18  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0d5c      0x48  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0da4      0x3c  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0de0      0x48  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0e28       0xc  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0e34       0x8  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0e3c       0xc  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0e48       0x8  fsl_gpt.o [1]
+      .rodata          inited   0x8000'0e50      0x4c  fsl_lpspi.o [1]
+      .rodata          inited   0x8000'0e9c      0x14  fsl_lpspi.o [1]
+      .rodata          inited   0x8000'0eb0      0x14  fsl_lpspi.o [1]
+      .rodata          inited   0x8000'0ec4      0x14  fsl_lpspi.o [1]
+      .rodata          inited   0x8000'0ed8      0x14  fsl_lpspi.o [1]
+      .rodata          inited   0x8000'0eec       0xc  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0ef8      0x4c  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0f44      0x40  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0f84      0x4c  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0fd0       0x8  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0fd8       0x8  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0fe0      0x18  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'0ff8      0x20  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'1018      0x20  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'1038      0x24  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'105c      0x14  fsl_lpuart.o [1]
+      .rodata          inited   0x8000'1070      0x48  fsl_sai.o [1]
+      .rodata          inited   0x8000'10b8      0x14  fsl_sai.o [1]
+      .rodata          inited   0x8000'10cc      0x14  fsl_sai.o [1]
+      .rodata          inited   0x8000'10e0       0xc  fsl_sdmmc_host.o [1]
+      .rodata          inited   0x8000'10ec      0x68  fsl_sdmmc_host.o [1]
+      .rodata          inited   0x8000'1154       0xc  fsl_usdhc.o [1]
+      .rodata          inited   0x8000'1160       0x8  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'1168      0x58  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'11c0       0x8  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'11c8      0x4c  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'1214      0x28  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'123c       0x8  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'1244       0x8  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'124c      0x24  lpuart_adapter.o [1]
+      .rodata          inited   0x8000'1270       0xc  serial_manager.o [1]
+      .rodata          inited   0x8000'127c      0x64  serial_manager.o [1]
+      .rodata          inited   0x8000'12e0       0x8  serial_manager.o [1]
+      .rodata          inited   0x8000'12e8       0x8  serial_manager.o [1]
+      .rodata          inited   0x8000'12f0       0x8  serial_manager.o [1]
+      .rodata          inited   0x8000'12f8       0xc  serial_manager.o [1]
+      .rodata          inited   0x8000'1304       0x8  serial_manager.o [1]
+      .rodata          inited   0x8000'130c      0x10  serial_manager.o [1]
+      .rodata          inited   0x8000'131c      0x10  serial_port_uart.o [1]
+      .rodata          inited   0x8000'132c      0x64  serial_port_uart.o [1]
+      .rodata          inited   0x8000'1390      0x10  serial_port_uart.o [1]
+      .rodata          inited   0x8000'13a0       0x8  serial_port_uart.o [1]
+      .rodata          inited   0x8000'13a8       0x8  serial_port_uart.o [1]
+      .rodata          inited   0x8000'13b0      0x14  zf_adc.o [1]
+      .rodata          inited   0x8000'13c4      0x68  zf_adc.o [1]
+      .rodata          inited   0x8000'142c       0xc  zf_gpio.o [1]
+      .rodata          inited   0x8000'1438      0x68  zf_gpio.o [1]
+      .rodata          inited   0x8000'14a0       0xc  zf_iomuxc.o [1]
+      .rodata          inited   0x8000'14ac      0x4c  zf_iomuxc.o [1]
+      .rodata          inited   0x8000'14f8      0x48  zf_iomuxc.o [1]
+      .rodata          inited   0x8000'1540      0x18  zf_systick.o [1]
+      .rodata          inited   0x8000'1558      0x68  zf_systick.o [1]
+      .rodata          inited   0x8000'15c0      0x28  zf_systick.o [1]
+      .rodata          inited   0x8000'15e8      0x48  zf_uart.o [1]
+      .text            inited   0x8000'1630      0xc0  arm_bitreversal2.o [1]
+      .text            inited   0x8000'16f0      0xcc  BMX055.o [1]
+      .text            inited   0x8000'17bc     0x338  board.o [1]
+      .text            inited   0x8000'1af4     0x6f4  clock_config.o [1]
+      .text            inited   0x8000'21e8      0x54  Encoder.o [1]
+      .text            inited   0x8000'223c      0x50  fsl_adc.o [1]
+      .text            inited   0x8000'228c      0x1c  fsl_assert.o [1]
+      .text            inited   0x8000'22a8     0x73c  fsl_clock.o [1]
+      .text            inited   0x8000'29e4      0x20  fsl_csi.o [1]
+      .text            inited   0x8000'2a04     0x1d0  fsl_debug_console.o [1]
+      .text            inited   0x8000'2bd4     0x47c  fsl_edma.o [1]
+      .text            inited   0x8000'3050      0xec  fsl_enet.o [1]
+      .text            inited   0x8000'313c      0x98  fsl_flexcan.o [1]
+      .text            inited   0x8000'31d4      0x64  fsl_flexio.o [1]
+      .text            inited   0x8000'3238      0x3c  fsl_flexio_camera.o [1]
+      .text            inited   0x8000'3274     0x1f2  fsl_gpio.o [1]
+      .text            inited   0x8000'3468     0x230  fsl_gpt.o [1]
+      .text            inited   0x8000'3698      0x90  fsl_lpi2c.o [1]
+      .text            inited   0x8000'3728      0xf0  fsl_lpspi.o [1]
+      .text            inited   0x8000'3818     0x4d0  fsl_lpuart.o [1]
+      .text            inited   0x8000'3ce8     0x138  fsl_sai.o [1]
+      .text            inited   0x8000'3e20      0x50  fsl_sdmmc_event.o [1]
+      .text            inited   0x8000'3e70      0xcc  fsl_sdmmc_host.o [1]
+      .text            inited   0x8000'3f3c      0x44  fsl_spdif.o [1]
+      .text            inited   0x8000'3f80     0x964  fsl_str.o [1]
+      .text            inited   0x8000'48e4      0x34  fsl_usdhc.o [1]
+      .text            inited   0x8000'4918     0x154  isr.o [1]
+      .text            inited   0x8000'4a6c     0x174  lpuart_adapter.o [1]
+      .text            inited   0x8000'4be0      0x30  main.o [1]
+      .text            inited   0x8000'4c10      0xc0  Posture.o [1]
+      .text            inited   0x8000'4cd0     0x25e  SEEKFREE_IIC.o [1]
+      .text            inited   0x8000'4f30      0x30  SEEKFREE_MT9V03X.o [1]
+      .text            inited   0x8000'4f60     0x1a0  SEEKFREE_RDA5807.o [1]
+      .text            inited   0x8000'5100      0x34  SEEKFREE_SCC8660.o [1]
+      .text            inited   0x8000'5134     0x1fc  serial_manager.o [1]
+      .text            inited   0x8000'5330      0xd4  serial_port_uart.o [1]
+      .text            inited   0x8000'5404     0x17a  usb_device_dci.o [1]
+      .text            inited   0x8000'5580     0x5e0  usb_device_ehci.o [1]
+      .text            inited   0x8000'5b60      0xa0  zf_adc.o [1]
+      .text            inited   0x8000'5c00      0x2c  zf_camera.o [1]
+      .text            inited   0x8000'5c2c     0x194  zf_gpio.o [1]
+      .text            inited   0x8000'5dc0    0x6ab0  zf_iomuxc.o [1]
+      .text            inited   0x8000'c870      0x70  zf_qtimer.o [1]
+      .text            inited   0x8000'c8e0     0x124  zf_systick.o [1]
+      .text            inited   0x8000'ca04     0x3c8  zf_uart.o [1]
+      .text            inited   0x8000'cdcc      0x20  zf_usb_cdc.o [1]
+      .text            inited   0x8000'cdec      0x86  ABImemcpy.o [4]
+      .text            inited   0x8000'ce74      0x66  ABImemset.o [4]
+      .text            inited   0x8000'cedc     0x274  I64DivMod.o [4]
+      .text            inited   0x8000'd150      0x36  strlen.o [4]
+      .text            inited   0x8000'd188      0x5c  DblToS64.o [3]
+      .text            inited   0x8000'd1e4      0x52  S64ToDbl.o [3]
+      .text            inited   0x8000'd238      0x9e  modf.o [3]
+      .text            inited   0x8000'd2d8     0x56c  pow64.o [3]
+      .text            inited   0x8000'd844       0x2  I64DivZer.o [4]
+      .text            inited   0x8000'd848     0x368  iar_Exp64.o [3]
+      .text            inited   0x8000'dbb0      0x7c  frexp.o [3]
+      .text            inited   0x8000'dc2c      0xf0  ldexp.o [3]
+      Veneer           inited   0x8000'dd1c       0x8  - Linker created -
+      .text            inited   0x8000'dd24       0xa  cexit.o [4]
+      .rodata          inited   0x8000'dd2e       0x2  SEEKFREE_RDA5807.o [1]
+      .text            inited   0x8000'dd30      0x10  common.o [1]
+      .text            inited   0x8000'dd40       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd48       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd50       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd58       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd60       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd68       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd70       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd78       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd80       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd88       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd90       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dd98       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dda0       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dda8       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddb0       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddb8       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddc0       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddc8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ddca       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ddcc       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ddce       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddd6       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddde       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dde6       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddee       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddf6       0x8  zf_vector.o [1]
+      .text            inited   0x8000'ddfe       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de06       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de0e       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de16       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de1e       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de26       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de2e       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de36       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de3e       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de46       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de4e       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de56       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de5e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de60       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de62       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de64       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de66       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de68       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de6a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de6c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de6e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de70       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de72       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de74       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de76       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de78       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de7a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de7c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de7e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'de80       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de88       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de90       0x8  zf_vector.o [1]
+      .text            inited   0x8000'de98       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dea0       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dea8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deaa       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deac       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deae       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deb0       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deb2       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deb4       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deb6       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deb8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deba       0x2  zf_vector.o [1]
+      .text            inited   0x8000'debc       0x2  zf_vector.o [1]
+      .text            inited   0x8000'debe       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dec0       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dec2       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dec4       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dec6       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dec8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deca       0x2  zf_vector.o [1]
+      .text            inited   0x8000'decc       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dece       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ded0       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ded2       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ded4       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ded6       0x2  zf_vector.o [1]
+      .text            inited   0x8000'ded8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deda       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dedc       0x8  zf_vector.o [1]
+      .text            inited   0x8000'dee4       0x8  zf_vector.o [1]
+      .text            inited   0x8000'deec       0x2  zf_vector.o [1]
+      .text            inited   0x8000'deee       0x2  zf_vector.o [1]
+      .text            inited   0x8000'def0       0x2  zf_vector.o [1]
+      .text            inited   0x8000'def2       0x2  zf_vector.o [1]
+      .text            inited   0x8000'def4       0x2  zf_vector.o [1]
+      .text            inited   0x8000'def6       0x2  zf_vector.o [1]
+      .text            inited   0x8000'def8       0x2  zf_vector.o [1]
+      .text            inited   0x8000'defa       0x2  zf_vector.o [1]
+      .text            inited   0x8000'defc       0x2  zf_vector.o [1]
+      .text            inited   0x8000'defe       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df00       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df02       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df04       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df06       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df08       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df0a       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df12       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df1a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df1c       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df24       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df2c       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df34       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df36       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df38       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df3a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df3c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df3e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df40       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df42       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df44       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df46       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df48       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df4a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df4c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df4e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df50       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df52       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df54       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df56       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df58       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df5a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df5c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df5e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df60       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df62       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df64       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df66       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df68       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df6a       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df6c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df6e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df70       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df72       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df74       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df76       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df78       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df7a       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df82       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df8a       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df92       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df94       0x8  zf_vector.o [1]
+      .text            inited   0x8000'df9c       0x2  zf_vector.o [1]
+      .text            inited   0x8000'df9e       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dfa0       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dfa2       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dfa4       0x2  zf_vector.o [1]
+      .text            inited   0x8000'dfa6       0x4  exit.o [2]
+                              - 0x8000'dfaa    0xdbaa
+
+Unused ranges:
+
+         From           To        Size
+         ----           --        ----
+  0x2000'007e  0x2000'007f         0x2
+  0x2001'010c  0x2006'efff    0x5'eef4
+  0x7000'a0d2  0x703f'ffff   0x3f'5f2e
+  0x8000'0000  0x8000'03ff       0x400
+  0x8000'dfaa  0x81df'ffff  0x1df'2056
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x1'008c:
+          0x2000'0080  0x9600
+          0x2000'9680  0x6a8c
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x7722 (54% of destination):
+          0x7000'2946  0x7722
+    1 destination range, total size 0xdbaa:
+          0x8000'0400  0xdbaa
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x6a (84% of destination):
+          0x7000'a068    0x6a
+    1 destination range, total size 0x7e:
+          0x2000'0000    0x7e
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                              ro code  rw code  ro data  rw data
+    ------                              -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------------------------
+    Total:
+
+C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj: [1]
+    BMX055.o                                         204      110
+    Encoder.o                                         84       45
+    Motor.o                                                             44
+    Posture.o                                        192      104       96
+    SEEKFREE_IIC.o                                   606      330        2
+    SEEKFREE_MT9V03X.o                                48       28   22'560
+    SEEKFREE_RDA5807.o                               416      236       26
+    SEEKFREE_SCC8660.o                                52       28   38'400
+    arm_bitreversal2.o                               192      104
+    board.o                                          824      447
+    clock_config.o                                 1'780    1'031      120
+    common.o                                          16        8        1
+    evkmimxrt1064_flexspi_nor_config.o                        512
+    evkmimxrt1064_sdram_ini_dcd.o                           1'072
+    fsl_adc.o                                         80      101      104
+    fsl_assert.o                                      28       39       44
+    fsl_clock.o                                    1'852    1'062      116
+    fsl_csi.o                                         32       18        8
+    fsl_debug_console.o                              464      347      208
+    fsl_edma.o                                     1'148      679      232
+    fsl_enet.o                                       236      208      172
+    fsl_flexcan.o                                    152      156      156
+    fsl_flexio.o                                     100       54       24
+    fsl_flexio_camera.o                               60       33
+    fsl_flexspi_nor_boot.o                                     48
+    fsl_gpio.o                                       498      426      288
+    fsl_gpt.o                                        560      498      356
+    fsl_lpi2c.o                                      144       78       48
+    fsl_lpspi.o                                      240      215      184
+    fsl_lpuart.o                                   1'232      878      428
+    fsl_sai.o                                        312      231      152
+    fsl_sdmmc_event.o                                 80       43       12
+    fsl_sdmmc_host.o                                 204      174      157
+    fsl_spdif.o                                       68       36       16
+    fsl_str.o                                      2'404    1'304
+    fsl_usdhc.o                                       52       34       28
+    isr.o                                            340      185    4'024
+    lpuart_adapter.o                                 372      350      272
+    main.o                                            48       26
+    serial_manager.o                                 508      369      172
+    serial_port_uart.o                               212      196      148
+    startup_MIMXRT1064.o                    108
+    system_MIMXRT1064.o                     382                 4        4
+    usb_device_dci.o                                 378      205
+    usb_device_ehci.o                              1'504      817
+    zf_adc.o                                         160      163      136
+    zf_camera.o                                       44       24       28
+    zf_gpio.o                                        404      315      156
+    zf_iomuxc.o                                   27'312   14'899      160
+    zf_qtimer.o                                      112       77       20
+    zf_systick.o                                     292      251      169
+    zf_uart.o                                        968      594      108
+    zf_usb_cdc.o                                      32       17       16
+    zf_vector.o                                      614    1'357
+    ----------------------------------------------------------------------
+    Total:                                  490   47'660   30'566   69'395
+
+dl7M_tln.a: [2]
+    abort.o                                   6
+    exit.o                                             4        3
+    low_level_init.o                          4
+    ----------------------------------------------------------------------
+    Total:                                   10        4        3
+
+m7M_tlv.a: [3]
+    DblToS64.o                                        92       51
+    S64ToDbl.o                                        82       45
+    fpinit_M.o                               34
+    frexp.o                                          124       68
+    iar_Exp64.o                                      872      474
+    ldexp.o                                          240      130
+    modf.o                                           158       86
+    pow64.o                                        1'388    1'326    1'056
+    ----------------------------------------------------------------------
+    Total:                                   34    2'956    2'180    1'056
+
+rt7M_tl.a: [4]
+    ABImemcpy.o                                      134       73
+    ABImemset.o                                      102       56
+    I64DivMod.o                                      628      342
+    I64DivZer.o                                        2        1
+    cexit.o                                           10        6
+    cmain.o                                  30
+    cstartup_M.o                             12
+    data_init.o                              40
+    lz77_init.o                             492
+    strlen.o                                          54       29
+    vector_table_M.o                         64
+    zero_init3.o                             58
+    ----------------------------------------------------------------------
+    Total:                                  696      930      507
+
+shb_l.a: [5]
+    exit.o                                   20
+    ----------------------------------------------------------------------
+    Total:                                   20
+
+    Gaps                                      2       18        2        9
+    Linker created                           16        8       84    4'096
+--------------------------------------------------------------------------
+    Grand Total:                          1'268   51'576   33'342   74'556
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base   0x7000'28b8           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x7000'2908           --   Gb  - Linker created -
+?main                   0x7000'2919          Code  Gb  cmain.o [4]
+ADCN                    0x2000'006c     0xc  Data  Gb  zf_adc.o [1]
+ADC_GetChannelConversionValue
+                        0x8000'5b61    0x22  Code  Lc  zf_adc.o [1]
+ADC_GetChannelStatusFlags
+                        0x8000'5b83    0x26  Code  Lc  zf_adc.o [1]
+ADC_SetChannelConfig    0x8000'223d    0x42  Code  Gb  fsl_adc.o [1]
+ARM_MPU_Disable         0x8000'17ff    0x20  Code  Lc  board.o [1]
+ARM_MPU_Enable          0x8000'17df    0x20  Code  Lc  board.o [1]
+BMX055_DataRead         0x8000'16f1    0xcc  Code  Gb  BMX055.o [1]
+BOARD_BootClockRUN      0x8000'1c75   0x448  Code  Gb  clock_config.o [1]
+BOARD_ConfigMPU         0x8000'19cb    0x7c  Code  Gb  board.o [1]
+BOARD_DebugConsoleSrcFreq
+                        0x8000'1979    0x3a  Code  Gb  board.o [1]
+BOARD_InitDebugConsole  0x8000'19b3    0x18  Code  Gb  board.o [1]
+BusFault_Handler        0x8000'dd37     0x2  Code  Gb  common.o [1]
+CAN1_DriverIRQHandler   0x8000'313d    0x26  Code  Gb  fsl_flexcan.o [1]
+CAN2_DriverIRQHandler   0x8000'3163    0x26  Code  Gb  fsl_flexcan.o [1]
+CAN3_DriverIRQHandler   0x8000'3189    0x26  Code  Gb  fsl_flexcan.o [1]
+CLOCK_ControlGate       0x8000'1be1    0x48  Code  Lc  clock_config.o [1]
+CLOCK_ControlGate       0x8000'3275    0x42  Code  Lc  fsl_gpio.o [1]
+CLOCK_ControlGate       0x8000'3469    0x42  Code  Lc  fsl_gpt.o [1]
+CLOCK_ControlGate       0x8000'3819    0x48  Code  Lc  fsl_lpuart.o [1]
+CLOCK_ControlGate       0x8000'5dc1    0x42  Code  Lc  zf_iomuxc.o [1]
+CLOCK_DeinitAudioPll    0x8000'2615     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitEnetPll     0x8000'262d     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitUsb2Pll     0x8000'260b     0xa  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitVideoPll    0x8000'2621     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DisableClock      0x8000'1c29    0x10  Code  Lc  clock_config.o [1]
+CLOCK_DisableClock      0x8000'34bb    0x10  Code  Lc  fsl_gpt.o [1]
+CLOCK_DisableClock      0x8000'3871    0x10  Code  Lc  fsl_lpuart.o [1]
+CLOCK_EnableClock       0x8000'32b7    0x10  Code  Lc  fsl_gpio.o [1]
+CLOCK_EnableClock       0x8000'34ab    0x10  Code  Lc  fsl_gpt.o [1]
+CLOCK_EnableClock       0x8000'3861    0x10  Code  Lc  fsl_lpuart.o [1]
+CLOCK_EnableClock       0x8000'5e11    0x10  Code  Lc  zf_iomuxc.o [1]
+CLOCK_GetAhbFreq        0x8000'242d    0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetDiv            0x8000'193d    0x2a  Code  Lc  board.o [1]
+CLOCK_GetFreq           0x8000'24b7   0x114  Code  Gb  fsl_clock.o [1]
+CLOCK_GetIpgFreq        0x8000'2479    0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetMux            0x8000'1913    0x2a  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x8000'1967    0x12  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x8000'22a9    0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPerClkFreq     0x8000'2491    0x26  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPeriphClkFreq  0x8000'230f    0xaa  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllBypassRefClk
+                        0x8000'22ed    0x22  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllFreq        0x8000'2639   0x23e  Code  Gb  fsl_clock.o [1]
+CLOCK_GetRtcFreq        0x8000'22c1     0x6  Code  Lc  fsl_clock.o [1]
+CLOCK_GetSemcFreq       0x8000'2445    0x34  Code  Gb  fsl_clock.o [1]
+CLOCK_GetSysPfdFreq     0x8000'2881    0x60  Code  Gb  fsl_clock.o [1]
+CLOCK_GetUsb1PfdFreq    0x8000'28ed    0x60  Code  Gb  fsl_clock.o [1]
+CLOCK_InitArmPll        0x8000'25cb    0x40  Code  Gb  fsl_clock.o [1]
+CLOCK_InitExternalClk   0x8000'23b9    0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_InitRcOsc24M      0x8000'241f     0xe  Code  Gb  fsl_clock.o [1]
+CLOCK_IsPllBypassed     0x8000'22c7    0x10  Code  Lc  fsl_clock.o [1]
+CLOCK_IsPllEnabled      0x8000'22d7    0x16  Code  Lc  fsl_clock.o [1]
+CLOCK_SetDiv            0x8000'1b6b    0x76  Code  Lc  clock_config.o [1]
+CLOCK_SetMux            0x8000'1af5    0x76  Code  Lc  clock_config.o [1]
+CLOCK_SetPllBypass      0x8000'1c49    0x2c  Code  Lc  clock_config.o [1]
+CLOCK_SetRtcXtalFreq    0x8000'1c41     0x8  Code  Lc  clock_config.o [1]
+CLOCK_SetXtalFreq       0x8000'1c39     0x8  Code  Lc  clock_config.o [1]
+CLOCK_SwitchOsc         0x8000'2403    0x1c  Code  Gb  fsl_clock.o [1]
+CSI_DriverIRQHandler    0x8000'29e5    0x10  Code  Gb  fsl_csi.o [1]
+CSI_IRQHandler          0x8000'495b     0xc  Code  Gb  isr.o [1]
+CSTACK$$Base            0x2006'f000           --   Gb  - Linker created -
+CSTACK$$Limit           0x2007'0000           --   Gb  - Linker created -
+ConvertFloatRadixNumToString
+                        0x8000'40d1   0x19e  Code  Lc  fsl_str.o [1]
+ConvertRadixNumToString
+                        0x8000'3f81   0x150  Code  Lc  fsl_str.o [1]
+DMA0_DMA16_DriverIRQHandler
+                        0x8000'2d2b    0x34  Code  Gb  fsl_edma.o [1]
+DMA10_DMA26_DriverIRQHandler
+                        0x8000'2f29    0x30  Code  Gb  fsl_edma.o [1]
+DMA11_DMA27_DriverIRQHandler
+                        0x8000'2f59    0x2e  Code  Gb  fsl_edma.o [1]
+DMA12_DMA28_DriverIRQHandler
+                        0x8000'2f87    0x2e  Code  Gb  fsl_edma.o [1]
+DMA13_DMA29_DriverIRQHandler
+                        0x8000'2fb5    0x2e  Code  Gb  fsl_edma.o [1]
+DMA14_DMA30_DriverIRQHandler
+                        0x8000'2fe3    0x2e  Code  Gb  fsl_edma.o [1]
+DMA15_DMA31_DriverIRQHandler
+                        0x8000'3011    0x2e  Code  Gb  fsl_edma.o [1]
+DMA1_DMA17_DriverIRQHandler
+                        0x8000'2d5f    0x34  Code  Gb  fsl_edma.o [1]
+DMA2_DMA18_DriverIRQHandler
+                        0x8000'2d93    0x34  Code  Gb  fsl_edma.o [1]
+DMA3_DMA19_DriverIRQHandler
+                        0x8000'2dc7    0x34  Code  Gb  fsl_edma.o [1]
+DMA4_DMA20_DriverIRQHandler
+                        0x8000'2dfb    0x34  Code  Gb  fsl_edma.o [1]
+DMA5_DMA21_DriverIRQHandler
+                        0x8000'2e2f    0x34  Code  Gb  fsl_edma.o [1]
+DMA6_DMA22_DriverIRQHandler
+                        0x8000'2e63    0x34  Code  Gb  fsl_edma.o [1]
+DMA7_DMA23_DriverIRQHandler
+                        0x8000'2e97    0x32  Code  Gb  fsl_edma.o [1]
+DMA8_DMA24_DriverIRQHandler
+                        0x8000'2ec9    0x30  Code  Gb  fsl_edma.o [1]
+DMA9_DMA25_DriverIRQHandler
+                        0x8000'2ef9    0x30  Code  Gb  fsl_edma.o [1]
+DTCM_VAR$$Base          0x2000'0080           --   Gb  - Linker created -
+DTCM_VAR$$Limit         0x2000'9680           --   Gb  - Linker created -
+DbgConsole_Init         0x8000'2a8b    0xe6  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintCallback
+                        0x8000'2a4d    0x3e  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Printf       0x8000'2b71    0x3e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_SendData     0x8000'2a05    0x48  Code  Gb  fsl_debug_console.o [1]
+DebugMon_Handler        0x8000'dd3d     0x2  Code  Gb  common.o [1]
+DefaultISR              0x7000'2869          Code  Wk  startup_MIMXRT1064.o [1]
+DisableGlobalIRQ        0x8000'4be1     0x8  Code  Lc  main.o [1]
+EDMA_GetChannelStatusFlags
+                        0x8000'2bd5    0x4a  Code  Gb  fsl_edma.o [1]
+EDMA_HandleIRQ          0x8000'2c29   0x102  Code  Gb  fsl_edma.o [1]
+ENET2_DriverIRQHandler  0x8000'3111     0xa  Code  Gb  fsl_enet.o [1]
+ENET_1588_Timer_IRQHandler
+                        0x8000'30f5    0x10  Code  Gb  fsl_enet.o [1]
+ENET_CommonFrame0IRQHandler
+                        0x8000'3095    0x60  Code  Gb  fsl_enet.o [1]
+ENET_DriverIRQHandler   0x8000'3105     0xa  Code  Gb  fsl_enet.o [1]
+ENET_GetInstance        0x8000'3051    0x36  Code  Gb  fsl_enet.o [1]
+EnableGlobalIRQ         0x8000'4be9     0x6  Code  Lc  main.o [1]
+FLEXIO1_DriverIRQHandler
+                        0x8000'3221     0x8  Code  Gb  fsl_flexio.o [1]
+FLEXIO2_DriverIRQHandler
+                        0x8000'3229     0x8  Code  Gb  fsl_flexio.o [1]
+FLEXIO3_DriverIRQHandler
+                        0x8000'3231     0x8  Code  Gb  fsl_flexio.o [1]
+FLEXIO_CAMERA_ClearStatusFlags
+                        0x8000'3241    0x34  Code  Gb  fsl_flexio_camera.o [1]
+FLEXIO_ClearShifterErrorFlags
+                        0x8000'323d     0x4  Code  Lc  fsl_flexio_camera.o [1]
+FLEXIO_ClearShifterStatusFlags
+                        0x8000'3239     0x4  Code  Lc  fsl_flexio_camera.o [1]
+FLEXIO_CommonIRQHandler
+                        0x8000'31d5    0x3e  Code  Gb  fsl_flexio.o [1]
+GPIO2_Combined_0_15_IRQHandler
+                        0x8000'4a1d    0x3a  Code  Gb  isr.o [1]
+GPIO2_Combined_16_31_IRQHandler
+                        0x8000'49ff    0x1e  Code  Gb  isr.o [1]
+GPIO3_Combined_0_15_IRQHandler
+                        0x8000'3ee5    0x42  Code  Gb  fsl_sdmmc_host.o [1]
+GPIO_ClearPinsInterruptFlags
+                        0x8000'494b    0x10  Code  Lc  isr.o [1]
+GPIO_ClearPinsInterruptFlags
+                        0x8000'4f35    0x10  Code  Lc  SEEKFREE_MT9V03X.o [1]
+GPIO_ClearPinsInterruptFlags
+                        0x8000'5105    0x10  Code  Lc  SEEKFREE_SCC8660.o [1]
+GPIO_ClearPinsOutput    0x8000'5c49    0x10  Code  Lc  zf_gpio.o [1]
+GPIO_GetInstance        0x8000'32dd    0x2e  Code  Lc  fsl_gpio.o [1]
+GPIO_GetPinsInterruptFlags
+                        0x8000'493b     0xc  Code  Lc  isr.o [1]
+GPIO_PinInit            0x8000'330b    0x58  Code  Gb  fsl_gpio.o [1]
+GPIO_PinRead            0x8000'3e71    0x26  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PinReadPadStatus   0x8000'5c59    0x26  Code  Lc  zf_gpio.o [1]
+GPIO_PinSetInterruptConfig
+                        0x8000'33bd    0xaa  Code  Gb  fsl_gpio.o [1]
+GPIO_PinWrite           0x8000'3363    0x3a  Code  Gb  fsl_gpio.o [1]
+GPIO_PortClear          0x8000'5c43     0x6  Code  Lc  zf_gpio.o [1]
+GPIO_PortClearInterruptFlags
+                        0x8000'3e9b     0x4  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PortClearInterruptFlags
+                        0x8000'4947     0x4  Code  Lc  isr.o [1]
+GPIO_PortClearInterruptFlags
+                        0x8000'4f31     0x4  Code  Lc  SEEKFREE_MT9V03X.o [1]
+GPIO_PortClearInterruptFlags
+                        0x8000'5101     0x4  Code  Lc  SEEKFREE_SCC8660.o [1]
+GPIO_PortGetInterruptFlags
+                        0x8000'3e97     0x4  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PortGetInterruptFlags
+                        0x8000'4937     0x4  Code  Lc  isr.o [1]
+GPIO_PortSet            0x8000'5c2d     0x6  Code  Lc  zf_gpio.o [1]
+GPIO_ReadPadStatus      0x8000'5c7f    0x10  Code  Lc  zf_gpio.o [1]
+GPIO_SetPinInterruptConfig
+                        0x8000'32c7    0x16  Code  Lc  fsl_gpio.o [1]
+GPIO_SetPinsOutput      0x8000'5c33    0x10  Code  Lc  zf_gpio.o [1]
+GPT_ClearStatusFlags    0x8000'c959     0x8  Code  Lc  zf_systick.o [1]
+GPT_Deinit              0x8000'360b    0x1a  Code  Gb  fsl_gpt.o [1]
+GPT_GetDefaultConfig    0x8000'3625    0x48  Code  Gb  fsl_gpt.o [1]
+GPT_GetInstance         0x8000'3541    0x2e  Code  Lc  fsl_gpt.o [1]
+GPT_GetStatusFlags      0x8000'c94f     0xa  Code  Lc  zf_systick.o [1]
+GPT_Init                0x8000'356f    0x9c  Code  Gb  fsl_gpt.o [1]
+GPT_SetClockDivider     0x8000'3513    0x2e  Code  Lc  fsl_gpt.o [1]
+GPT_SetClockDivider     0x8000'c8e1    0x2e  Code  Lc  zf_systick.o [1]
+GPT_SetClockSource      0x8000'34db    0x38  Code  Lc  fsl_gpt.o [1]
+GPT_SetOutputCompareValue
+                        0x8000'c923    0x2c  Code  Lc  zf_systick.o [1]
+GPT_SoftwareReset       0x8000'34cb    0x10  Code  Lc  fsl_gpt.o [1]
+GPT_StartTimer          0x8000'c90f     0xa  Code  Lc  zf_systick.o [1]
+GPT_StopTimer           0x8000'c919     0xa  Code  Lc  zf_systick.o [1]
+Gyro                    0x2000'a850    0x10  Data  Gb  Posture.o [1]
+HAL_UartGetStatus       0x8000'4a6d    0x10  Code  Lc  lpuart_adapter.o [1]
+HAL_UartInit            0x8000'4a7d    0xe8  Code  Gb  lpuart_adapter.o [1]
+HAL_UartSendBlocking    0x8000'4b65    0x5a  Code  Gb  lpuart_adapter.o [1]
+HardFault_Handler       0x8000'dd33     0x2  Code  Gb  common.o [1]
+IOMUXC_SetPinConfig     0x8000'5e3d    0x10  Code  Lc  zf_iomuxc.o [1]
+IOMUXC_SetPinMux        0x8000'5e21    0x1c  Code  Lc  zf_iomuxc.o [1]
+InStream_Read           0x7000'2455    0x28  Code  Lc  lz77_init.o [4]
+InStream_StepRegion     0x7000'2441    0x14  Code  Lc  lz77_init.o [4]
+LPI2C1_DriverIRQHandler
+                        0x8000'36d7     0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C2_DriverIRQHandler
+                        0x8000'36e3     0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C3_DriverIRQHandler
+                        0x8000'36ef     0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C4_DriverIRQHandler
+                        0x8000'36fb     0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_CommonIRQHandler  0x8000'3699    0x3e  Code  Lc  fsl_lpi2c.o [1]
+LPSPI1_DriverIRQHandler
+                        0x8000'3759    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI2_DriverIRQHandler
+                        0x8000'377d    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI3_DriverIRQHandler
+                        0x8000'37a1    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI4_DriverIRQHandler
+                        0x8000'37c5    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI_CommonIRQHandler  0x8000'3731    0x28  Code  Lc  fsl_lpspi.o [1]
+LPSPI_IsMaster          0x8000'3729     0x8  Code  Lc  fsl_lpspi.o [1]
+LPUART1_DriverIRQHandler
+                        0x8000'3c31    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART2_DriverIRQHandler
+                        0x8000'3c49    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART3_DriverIRQHandler
+                        0x8000'3c59    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART4_DriverIRQHandler
+                        0x8000'3c6d    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART5_DriverIRQHandler
+                        0x8000'3c7d    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART6_DriverIRQHandler
+                        0x8000'3c8d    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART7_DriverIRQHandler
+                        0x8000'3c9d    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART8_DriverIRQHandler
+                        0x8000'3cad    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART_Deinit           0x8000'3b21    0x3e  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetDefaultConfig
+                        0x8000'3b5f    0x6c  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetInstance      0x8000'3893    0x34  Code  Gb  fsl_lpuart.o [1]
+LPUART_Init             0x8000'38c7   0x25a  Code  Gb  fsl_lpuart.o [1]
+LPUART_SoftwareReset    0x8000'3881    0x12  Code  Lc  fsl_lpuart.o [1]
+LPUART_WriteBlocking    0x8000'3bcb    0x38  Code  Gb  fsl_lpuart.o [1]
+MemManage_Handler       0x8000'dd35     0x2  Code  Gb  common.o [1]
+NMI_Handler             0x8000'dd31     0x2  Code  Gb  common.o [1]
+OutStream_Write         0x7000'247d    0x42  Code  Lc  lz77_init.o [4]
+PIT_ClearStatusFlags    0x8000'4929     0xe  Code  Lc  isr.o [1]
+PIT_GetStatusFlags      0x8000'4919    0x10  Code  Lc  isr.o [1]
+PIT_IRQHandler          0x8000'4967    0x98  Code  Gb  isr.o [1]
+PORTPTR                 0x2000'0000    0x28  Data  Gb  zf_gpio.o [1]
+PendSV_Handler          0x8000'dd3f     0x2  Code  Gb  common.o [1]
+QTIMERN                 0x2000'004c    0x14  Data  Gb  zf_qtimer.o [1]
+QTMR_GetCurrentTimerCount
+                        0x8000'c871     0xa  Code  Lc  zf_qtimer.o [1]
+RW$$Base                0x8000'0400           --   Gb  - Linker created -
+RW$$Limit               0x8000'dfaa           --   Gb  - Linker created -
+Region$$Table$$Base     0x7000'28b8           --   Gb  - Linker created -
+Region$$Table$$Limit    0x7000'2908           --   Gb  - Linker created -
+Reset_Handler           0x7000'2801          Code  Gb  startup_MIMXRT1064.o [1]
+SAI1_DriverIRQHandler   0x8000'3ce9    0x5a  Code  Gb  fsl_sai.o [1]
+SAI2_DriverIRQHandler   0x8000'3d43    0x5a  Code  Gb  fsl_sai.o [1]
+SAI3_RX_DriverIRQHandler
+                        0x8000'3dc3    0x26  Code  Gb  fsl_sai.o [1]
+SAI3_TX_DriverIRQHandler
+                        0x8000'3d9d    0x26  Code  Gb  fsl_sai.o [1]
+SCB_DisableDCache       0x8000'18bf    0x54  Code  Lc  board.o [1]
+SCB_DisableICache       0x8000'1849    0x22  Code  Lc  board.o [1]
+SCB_EnableDCache        0x8000'186b    0x54  Code  Lc  board.o [1]
+SCB_EnableDCache        0x7000'26ab    0x54  Code  Lc  system_MIMXRT1064.o [1]
+SCB_EnableICache        0x8000'181f    0x2a  Code  Lc  board.o [1]
+SCB_EnableICache        0x7000'2681    0x2a  Code  Lc  system_MIMXRT1064.o [1]
+SDMMCEVENT_GetInstance  0x8000'3e2b    0x1c  Code  Lc  fsl_sdmmc_event.o [1]
+SDMMCEVENT_Notify       0x8000'3e47    0x1e  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCHOST_NofiyCardInsertStatus
+                        0x8000'3e9f    0x46  Code  Lc  fsl_sdmmc_host.o [1]
+SPDIF_DriverIRQHandler  0x8000'3f3d    0x32  Code  Gb  fsl_spdif.o [1]
+SVC_Handler             0x8000'dd3b     0x2  Code  Gb  common.o [1]
+SerialManager_Init      0x8000'51dd    0x6c  Code  Gb  serial_manager.o [1]
+SerialManager_OpenReadHandle
+                        0x8000'529f    0x5e  Code  Gb  serial_manager.o [1]
+SerialManager_OpenWriteHandle
+                        0x8000'5249    0x56  Code  Gb  serial_manager.o [1]
+SerialManager_StartWriting
+                        0x8000'5135    0x34  Code  Lc  serial_manager.o [1]
+SerialManager_Write     0x8000'5169    0x74  Code  Lc  serial_manager.o [1]
+SerialManager_WriteBlocking
+                        0x8000'52fd    0x14  Code  Gb  serial_manager.o [1]
+Serial_UartInit         0x8000'5331    0x6e  Code  Gb  serial_port_uart.o [1]
+Serial_UartWrite        0x8000'539f    0x52  Code  Gb  serial_port_uart.o [1]
+StrFormatPrintf         0x8000'4279   0x66c  Code  Gb  fsl_str.o [1]
+SysTick_Handler         0x8000'3e21     0xa  Code  Gb  fsl_sdmmc_event.o [1]
+SystemCoreClock         0x2000'0078     0x4  Data  Gb  system_MIMXRT1064.o [1]
+SystemInit              0x7000'26ff    0xb0  Code  Gb  system_MIMXRT1064.o [1]
+UARTN                   0x2000'0028    0x24  Data  Gb  zf_uart.o [1]
+USB_DeviceControl       0x8000'5405    0x36  Code  Lc  usb_device_dci.o [1]
+USB_DeviceEhciCancelControlPipe
+                        0x8000'560d   0x10a  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciFillSetupBuffer
+                        0x8000'5581    0x8c  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciInterruptPortChange
+                        0x8000'5a5d    0x52  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciInterruptReset
+                        0x8000'5aaf    0x66  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciInterruptSof
+                        0x8000'5b15     0x2  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciInterruptTokenDone
+                        0x8000'5717   0x346  Code  Lc  usb_device_ehci.o [1]
+USB_DeviceEhciIsrFunction
+                        0x8000'5b17    0x4a  Code  Gb  usb_device_ehci.o [1]
+USB_DeviceNotification  0x8000'549b    0xba  Code  Lc  usb_device_dci.o [1]
+USB_DeviceNotificationTrigger
+                        0x8000'5555    0x2a  Code  Gb  usb_device_dci.o [1]
+USB_DeviceResetNotification
+                        0x8000'543b    0x60  Code  Lc  usb_device_dci.o [1]
+USB_OTG1_IRQHandler     0x8000'cdcd     0xe  Code  Gb  zf_usb_cdc.o [1]
+USB_OTG2_IRQHandler     0x8000'cddb     0xe  Code  Gb  zf_usb_cdc.o [1]
+USDHC1_DriverIRQHandler
+                        0x8000'48e5    0x12  Code  Gb  fsl_usdhc.o [1]
+USDHC2_DriverIRQHandler
+                        0x8000'48f7    0x12  Code  Gb  fsl_usdhc.o [1]
+UsageFault_Handler      0x8000'dd39     0x2  Code  Gb  common.o [1]
+ZI$$Base                0x2000'9680           --   Gb  - Linker created -
+ZI$$Limit               0x2001'010c           --   Gb  - Linker created -
+__CSTACK_ADDRESS {Abs}  0x2007'0000          Data  Gb  <internal module>
+__NVIC_SetPriorityGrouping
+                        0x8000'17bd    0x22  Code  Lc  board.o [1]
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                              0x400          Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x8000'0000          Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}    0x7000'2000          Data  Gb  <internal module>
+__aeabi_assert          0x8000'228d    0x1c  Code  Gb  fsl_assert.o [1]
+__aeabi_d2lz            0x8000'd189          Code  Gb  DblToS64.o [3]
+__aeabi_l2d             0x8000'd1e5          Code  Gb  S64ToDbl.o [3]
+__aeabi_ldiv0           0x8000'd845          Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod         0x8000'cedd          Code  Gb  I64DivMod.o [4]
+__aeabi_memcpy4         0x8000'cded          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x8000'cded          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x8000'ce75          Code  Gb  ABImemset.o [4]
+__aeabi_uldivmod        0x8000'cf21          Code  Gb  I64DivMod.o [4]
+__cmain                 0x7000'2919          Code  Gb  cmain.o [4]
+__exit                  0x7000'266d    0x14  Code  Gb  exit.o [5]
+__iar_Exp64             0x8000'd849   0x368  Code  Gb  iar_Exp64.o [3]
+__iar_Memset            0x8000'ce75          Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x8000'ce7d          Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x7000'286d    0x28  Code  Gb  data_init.o [4]
+__iar_frexp             0x8000'dbc9          Code  Gb  frexp.o [3]
+__iar_frexp64           0x8000'dbb1          Code  Gb  frexp.o [3]
+__iar_frexpl            0x8000'dbc9          Code  Gb  frexp.o [3]
+__iar_init_vfp          0x7000'2895          Code  Gb  fpinit_M.o [3]
+__iar_ldexp64           0x8000'dc2d          Code  Gb  ldexp.o [3]
+__iar_lz77_init3        0x7000'24bf   0x16e  Code  Gb  lz77_init.o [4]
+__iar_modf              0x8000'd249          Code  Gb  modf.o [3]
+__iar_modf64            0x8000'd239          Code  Gb  modf.o [3]
+__iar_modfl             0x8000'd249          Code  Gb  modf.o [3]
+__iar_pow64             0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+__iar_pow_medium        0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+__iar_pow_medium64      0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+__iar_pow_mediuml       0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+__iar_program_start     0x7000'293b          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64         0x8000'dc2d          Code  Gb  ldexp.o [3]
+__iar_scalbn64          0x8000'dc2d          Code  Gb  ldexp.o [3]
+__iar_zero_init3        0x7000'2633    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init        0x7000'2937     0x4  Code  Gb  low_level_init.o [2]
+__vector_table          0x7000'2400          Data  Gb  vector_table_M.o [4]
+__zf_vector_table       0x7000'2000   0x400  Data  Gb  zf_vector.o [1]
+_call_main              0x7000'2925          Code  Gb  cmain.o [4]
+_exit                   0x8000'dd25          Code  Gb  cexit.o [4]
+_main                   0x7000'2933          Code  Gb  cmain.o [4]
+abort                   0x7000'262d     0x6  Code  Gb  abort.o [2]
+adc_convert             0x8000'5ba9    0x4c  Code  Gb  zf_adc.o [1]
+adc_val                 0x2000'9884   0xfa0  Data  Gb  isr.o [1]
+armPllConfig_BOARD_BootClockRUN
+                        0x8000'0890     0x8  Data  Gb  clock_config.o [1]
+arm_bitreversal_16      0x8000'169b          Code  Gb  arm_bitreversal2.o [1]
+arm_bitreversal_32      0x8000'1631          Code  Gb  arm_bitreversal2.o [1]
+bmx055                  0x2000'a88c    0x24  Data  Gb  Posture.o [1]
+board_init              0x8000'1a47    0x24  Code  Gb  board.o [1]
+boot_data               0x7000'1020    0x10  Data  Gb  fsl_flexspi_nor_boot.o [1]
+car                     0x2000'a860    0x2c  Data  Gb  Posture.o [1]
+dcd_data                0x7000'1030   0x430  Data  Gb  evkmimxrt1064_sdram_ini_dcd.o [1]
+dma_restart             0x8000'5c0d    0x14  Code  Gb  zf_camera.o [1]
+exit                    0x8000'dfa7     0x4  Code  Gb  exit.o [2]
+flexio_camera_type      0x2000'9680     0x1  Data  Gb  common.o [1]
+flexio_flag_clear       0x8000'5c01     0xc  Code  Gb  zf_camera.o [1]
+frexp                   0x8000'dbb1          Code  Gb  frexp.o [3]
+frexpl                  0x8000'dbb1          Code  Gb  frexp.o [3]
+g_eventCardDetect       0x2000'9814     0x4  Data  Lc  fsl_sdmmc_event.o [1]
+g_eventTimeMilliseconds
+                        0x2000'981c     0x4  Data  Gb  fsl_sdmmc_event.o [1]
+g_eventTransferComplete
+                        0x2000'9818     0x4  Data  Lc  fsl_sdmmc_event.o [1]
+g_rtcXtalFreq           0x2000'9688     0x4  Data  Gb  fsl_clock.o [1]
+g_serialHandle          0x2000'96b0     0x4  Data  Gb  fsl_debug_console.o [1]
+g_usdhcHandle           0x2000'9820    0x28  Data  Gb  fsl_sdmmc_host.o [1]
+g_xtalFreq              0x2000'9684     0x4  Data  Gb  fsl_clock.o [1]
+get_posture             0x8000'4c11    0x94  Code  Gb  Posture.o [1]
+gpio_dir                0x8000'5d5b    0x58  Code  Gb  zf_gpio.o [1]
+gpio_get                0x8000'5d3d    0x1e  Code  Gb  zf_gpio.o [1]
+gpio_init               0x8000'5c8f    0x6c  Code  Gb  zf_gpio.o [1]
+gpio_set                0x8000'5cfb    0x42  Code  Gb  zf_gpio.o [1]
+gpt_init                0x8000'c961    0x36  Code  Gb  zf_systick.o [1]
+gpt_init_flag           0x2001'00f8     0x1  Data  Lc  zf_systick.o [1]
+image_vector_table      0x7000'1000    0x20  Data  Gb  fsl_flexspi_nor_boot.o [1]
+iomuxc_pinconf          0x8000'5e4d  0x694c  Code  Gb  zf_iomuxc.o [1]
+ldexp                   0x8000'dc2d          Code  Gb  ldexp.o [3]
+ldexpl                  0x8000'dc2d          Code  Gb  ldexp.o [3]
+lnbias                  0x8000'0400   0x420  Data  Lc  pow64.o [3]
+m_boot_hdr_conf_start {Abs}
+                        0x7000'0000          Data  Gb  <internal module>
+main                    0x8000'4bf1    0x1a  Code  Gb  main.o [1]
+modf                    0x8000'd239          Code  Gb  modf.o [3]
+modfl                   0x8000'd239          Code  Gb  modf.o [3]
+motor                   0x2000'a824    0x2c  Data  Gb  Motor.o [1]
+mt9v03x_image           0x2000'a8b0  0x5820  Data  Gb  SEEKFREE_MT9V03X.o [1]
+mt9v03x_vsync           0x8000'4f45    0x14  Code  Gb  SEEKFREE_MT9V03X.o [1]
+pow                     0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+powl                    0x8000'd2d9   0x518  Code  Gb  pow64.o [3]
+qspiflash_config        0x7000'0000   0x200  Data  Gb  evkmimxrt1064_flexspi_nor_config.o [1]
+qtimer_quad_clear       0x8000'c8ab    0x30  Code  Gb  zf_qtimer.o [1]
+qtimer_quad_get         0x8000'c87b    0x30  Code  Gb  zf_qtimer.o [1]
+rad5807m_simiic_write   0x8000'4f61    0x36  Code  Gb  SEEKFREE_RDA5807.o [1]
+rda5807_channel_config  0x8000'4fd3    0x1c  Code  Gb  SEEKFREE_RDA5807.o [1]
+rda5807_config_reg      0x2000'0060     0xc  Data  Gb  SEEKFREE_RDA5807.o [1]
+rda5807_init            0x8000'5035    0xb0  Code  Gb  SEEKFREE_RDA5807.o [1]
+rda5807_read_reg        0x2001'00d0     0xc  Data  Gb  SEEKFREE_RDA5807.o [1]
+rda5807_set_channel     0x8000'4ff1    0x44  Code  Gb  SEEKFREE_RDA5807.o [1]
+rda5807m_simiic_read    0x8000'4f97    0x3c  Code  Gb  SEEKFREE_RDA5807.o [1]
+read_ch                 0x8000'4e2d    0x7c  Code  Gb  SEEKFREE_IIC.o [1]
+s_EDMAHandle            0x2000'96b4    0x80  Data  Lc  fsl_edma.o [1]
+s_ENETHandle            0x2000'9734     0x8  Data  Lc  fsl_enet.o [1]
+s_FlexioCameraDevice    0x2001'00dc    0x1c  Data  Lc  zf_camera.o [1]
+s_LpuartAdapterBase     0x8000'124c    0x24  Data  Lc  lpuart_adapter.o [1]
+s_cdcVcom               0x2001'00fc    0x10  Data  Gb  zf_usb_cdc.o [1]
+s_csiHandle             0x2000'968c     0x4  Data  Lc  fsl_csi.o [1]
+s_csiIsr                0x2000'9690     0x4  Data  Lc  fsl_csi.o [1]
+s_debugConsoleState     0x2000'9694    0x1c  Data  Lc  fsl_debug_console.o [1]
+s_enetBases             0x8000'0b38     0xc  Data  Lc  fsl_enet.o [1]
+s_enetErrIsr            0x2000'9744     0x4  Data  Lc  fsl_enet.o [1]
+s_enetRxIsr             0x2000'9740     0x4  Data  Lc  fsl_enet.o [1]
+s_enetTsIsr             0x2000'9748     0x4  Data  Lc  fsl_enet.o [1]
+s_enetTxIsr             0x2000'973c     0x4  Data  Lc  fsl_enet.o [1]
+s_flexcanHandle         0x2000'974c    0x10  Data  Lc  fsl_flexcan.o [1]
+s_flexcanIsr            0x2000'975c     0x4  Data  Lc  fsl_flexcan.o [1]
+s_flexioHandle          0x2000'9760     0x8  Data  Lc  fsl_flexio.o [1]
+s_flexioIsr             0x2000'9770     0x8  Data  Lc  fsl_flexio.o [1]
+s_flexioType            0x2000'9768     0x8  Data  Lc  fsl_flexio.o [1]
+s_gpioBases             0x8000'0cb8    0x28  Data  Lc  fsl_gpio.o [1]
+s_gpioClock             0x8000'0ce0     0xc  Data  Lc  fsl_gpio.o [1]
+s_gptBases              0x8000'0e3c     0xc  Data  Lc  fsl_gpt.o [1]
+s_gptClocks             0x8000'0e48     0x8  Data  Lc  fsl_gpt.o [1]
+s_lpi2cMasterHandle     0x2000'977c    0x14  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cMasterIsr        0x2000'9778     0x4  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cSlaveHandle      0x2000'9794    0x14  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cSlaveIsr         0x2000'9790     0x4  Data  Lc  fsl_lpi2c.o [1]
+s_lpspiHandle           0x2000'97a8    0x14  Data  Lc  fsl_lpspi.o [1]
+s_lpspiMasterIsr        0x2000'97bc     0x4  Data  Lc  fsl_lpspi.o [1]
+s_lpspiSlaveIsr         0x2000'97c0     0x4  Data  Lc  fsl_lpspi.o [1]
+s_lpuartBases           0x8000'1038    0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartClock           0x8000'105c    0x14  Data  Lc  fsl_lpuart.o [1]
+s_lpuartHandle          0x2000'97c4    0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartIsr             0x2000'97e8     0x4  Data  Lc  fsl_lpuart.o [1]
+s_saiHandle             0x2000'97ec    0x20  Data  Lc  fsl_sai.o [1]
+s_saiRxIsr              0x2000'9810     0x4  Data  Lc  fsl_sai.o [1]
+s_saiTxIsr              0x2000'980c     0x4  Data  Lc  fsl_sai.o [1]
+s_sdInsertedFlag        0x2000'9848     0x1  Data  Lc  fsl_sdmmc_host.o [1]
+s_spdifHandle           0x2000'984c     0x8  Data  Gb  fsl_spdif.o [1]
+s_spdifRxIsr            0x2000'9858     0x4  Data  Lc  fsl_spdif.o [1]
+s_spdifTxIsr            0x2000'9854     0x4  Data  Lc  fsl_spdif.o [1]
+s_usdhcBase             0x8000'1154     0xc  Data  Lc  fsl_usdhc.o [1]
+s_usdhcHandle           0x2000'985c     0xc  Data  Lc  fsl_usdhc.o [1]
+s_usdhcIsr              0x2000'9868     0x4  Data  Lc  fsl_usdhc.o [1]
+scalbln                 0x8000'dc2d          Code  Gb  ldexp.o [3]
+scalblnl                0x8000'dc2d          Code  Gb  ldexp.o [3]
+scalbn                  0x8000'dc2d          Code  Gb  ldexp.o [3]
+scalbnl                 0x8000'dc2d          Code  Gb  ldexp.o [3]
+scc8660_image           0x2000'0080  0x9600  Data  Gb  SEEKFREE_SCC8660.o [1]
+scc8660_vsync           0x8000'5115    0x14  Code  Gb  SEEKFREE_SCC8660.o [1]
+sccb_waitack            0x8000'4d8d    0x58  Code  Lc  SEEKFREE_IIC.o [1]
+send_ch                 0x8000'4de5    0x48  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_delay            0x8000'4cd7    0x10  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_delay_set        0x8000'4cd1     0x6  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_delay_time       0x2000'007c     0x2  Data  Lc  SEEKFREE_IIC.o [1]
+simiic_init             0x8000'4f0f    0x20  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_read_regs        0x8000'4ea9    0x66  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_sendack          0x8000'4d49    0x44  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_start            0x8000'4ced    0x2c  Code  Gb  SEEKFREE_IIC.o [1]
+simiic_stop             0x8000'4d19    0x30  Code  Gb  SEEKFREE_IIC.o [1]
+speed_get               0x8000'21e9    0x4e  Code  Gb  Encoder.o [1]
+strlen                  0x8000'd151          Code  Gb  strlen.o [4]
+systick_delay           0x8000'c997    0x36  Code  Gb  zf_systick.o [1]
+systick_delay_ms        0x8000'c9cd    0x24  Code  Gb  zf_systick.o [1]
+uart_init               0x8000'cd53    0x6e  Code  Gb  zf_uart.o [1]
+uart_iomuxc             0x8000'ca05   0x34e  Code  Gb  zf_uart.o [1]
+var                     0x2000'986c    0x18  Data  Gb  isr.o [1]
+
+
+[1] = C:\Users\ASUS\Desktop\RBRBV1.0\Main_RT\IAR\program\nor_sdram_zf_dtcm\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tlv.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+   1'268 bytes of readonly  code memory
+  51'576 bytes of readwrite code memory
+  33'342 bytes of readonly  data memory
+  74'556 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

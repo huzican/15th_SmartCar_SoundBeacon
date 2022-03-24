@@ -1,0 +1,5 @@
+ffunicode.pbi: \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source\ffunicode.c \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/ff.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/integer.h \
+  C:\Users\ASUS\Desktop\RBRBV1.0\Libraries\nxp_libraries\middleware\fatfs\source/ffconf.h
